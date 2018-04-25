@@ -1,0 +1,2216 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "3wFa4YT74x1uTxKNLfI091ke/R4=",
+			"path": "github.com/arunthampi/p2pubsub",
+			"revision": "c379f80bd9b371c2b83f3032b9e5ca3351f3348d",
+			"revisionTime": "2018-04-25T03:45:51Z"
+		},
+		{
+			"checksumSHA1": "3N7NapaW5VGqC+y61bbYTew+LSE=",
+			"path": "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/mitchellh/go-homedir",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZiIaWEzUZXLWQENL3xgdktB9z4g=",
+			"path": "github.com/ipfs/go-ipfs/assets",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "lgbvt4zNWE/Q7dNesxfz5eGaNGk=",
+			"path": "github.com/ipfs/go-ipfs/blocks/blockstoreutil",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "r1/RVlFey7AKYgJ4nm1VXzl40tc=",
+			"path": "github.com/ipfs/go-ipfs/blockservice",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "AN73l7g+rROjSeDGXdVIrXwzyWg=",
+			"path": "github.com/ipfs/go-ipfs/commands",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Sz5rtb8eZb3ZjlX6wHEUVMha1iI=",
+			"path": "github.com/ipfs/go-ipfs/commands/legacy",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "8ECeuZsv36fpu/H5O3/0t101FfY=",
+			"path": "github.com/ipfs/go-ipfs/core",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "bie0pKP+rfhyhxFIsLh3MKgnGYo=",
+			"path": "github.com/ipfs/go-ipfs/core/commands",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "DBPFwO0Lxkbtpzocn/PDQjFey0A=",
+			"path": "github.com/ipfs/go-ipfs/core/commands/dag",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CYPgaCg4kZStXnXO/BvqFNDsHBk=",
+			"path": "github.com/ipfs/go-ipfs/core/commands/e",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1fvRNa8RKrpm09oZlsEm21LWx7U=",
+			"path": "github.com/ipfs/go-ipfs/core/commands/object",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mP/AddC3SkRXg7Ld36pqr82g/Gk=",
+			"path": "github.com/ipfs/go-ipfs/core/commands/unixfs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Sjk7M7TKdM4rYEpaD79lVkwByN0=",
+			"path": "github.com/ipfs/go-ipfs/core/coreapi",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "YIkBlp+LHMfFpRn4XW6rh5vbNTM=",
+			"path": "github.com/ipfs/go-ipfs/core/coreapi/interface",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2/aQwlENC80X4kw+JUNBdZKKzIY=",
+			"path": "github.com/ipfs/go-ipfs/core/coreapi/interface/options",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CMomc+Yl6sQljmXQLqTZ0APOeyM=",
+			"path": "github.com/ipfs/go-ipfs/core/coredag",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "P2ohq+ywvu68Cwr82pUSIv6g1Lo=",
+			"path": "github.com/ipfs/go-ipfs/core/corehttp",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "/C7OKwaudt2tAcs+gyIAbi03Mrs=",
+			"path": "github.com/ipfs/go-ipfs/core/corerepo",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CezQIfD2c0QNg7DckV8wBENqPUk=",
+			"path": "github.com/ipfs/go-ipfs/core/coreunix",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ctyhaKQpmVyfyE9FE+CBkgxGcpg=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SoOg6cds+C1ElnoW4p04obeqwo4=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/decision",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mdJuYyYCByWVxmB4xBBbLGuoIYU=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/message",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "xrzYSCj+T4SJyWBuFbrnB/ftNeA=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/message/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Q4MNMcYBu8713rGqztBjGMOQhCI=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/network",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "hL/BttrZjMddcrE0IUSO7ke99Rc=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/notifications",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2cXLfEraP1atIfs24BiG5uLRy8I=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/testnet",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+vyrQyLWWfRVVDjSENXr3AdBCo4=",
+			"path": "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "FRh2kB+TXOOdaOy/EoW2I99Xh88=",
+			"path": "github.com/ipfs/go-ipfs/exchange/reprovide",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "lpGKXn9mmhGOpqG46g8BPRr/5Z4=",
+			"path": "github.com/ipfs/go-ipfs/filestore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nFdwR9wVY/0sr453FypBghQJHG8=",
+			"path": "github.com/ipfs/go-ipfs/filestore/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "war2c1QWpHNUAJrqA7GCy72dpuM=",
+			"path": "github.com/ipfs/go-ipfs/fuse/ipns",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "KLUU5Kr3kUpNkb2mngFU/2M6Sq0=",
+			"path": "github.com/ipfs/go-ipfs/fuse/mount",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "UO6IhuUEqbsEGjdwVH5WGU4QFyk=",
+			"path": "github.com/ipfs/go-ipfs/fuse/node",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "MdHz7/PsNhBxqSYH75SnWzaHDHA=",
+			"path": "github.com/ipfs/go-ipfs/fuse/readonly",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CFgfC3bVNw5HfWzbKoBV/x1mfFs=",
+			"path": "github.com/ipfs/go-ipfs/importer",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "w9Zc121NC95EyispgbDE+6YrpT4=",
+			"path": "github.com/ipfs/go-ipfs/importer/balanced",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "zJB/VnxLGTxLLcvJfj0BgtJ6eBM=",
+			"path": "github.com/ipfs/go-ipfs/importer/helpers",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "X7dlw1BTcln6rEXHBG2P3WfZ3Rg=",
+			"path": "github.com/ipfs/go-ipfs/importer/trickle",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1eAu7YjZXyQw1NKyHakrHwGv5bs=",
+			"path": "github.com/ipfs/go-ipfs/keystore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ieXeuu2/P165/IPvNE+LwY+MXB8=",
+			"path": "github.com/ipfs/go-ipfs/merkledag",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Il5lOuD5//Nyvu63YC3vNPPWWkw=",
+			"path": "github.com/ipfs/go-ipfs/merkledag/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "6+gRPyoK5uDXdrMwV4D+IGUxFxQ=",
+			"path": "github.com/ipfs/go-ipfs/merkledag/test",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "vrBufAvLU5vtl/uxImiarYHr9rs=",
+			"path": "github.com/ipfs/go-ipfs/merkledag/utils",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "yCYenu4R1FNR7YWvk6h54nU12sg=",
+			"path": "github.com/ipfs/go-ipfs/mfs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "N3XeGCow1aistPFILuLfFgv5E6Y=",
+			"path": "github.com/ipfs/go-ipfs/namesys",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+WGuA/viFOZFBKV0ru7AKsWyoRA=",
+			"path": "github.com/ipfs/go-ipfs/namesys/opts",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "q1YxPc/kS542fRRgekMwChEenmg=",
+			"path": "github.com/ipfs/go-ipfs/namesys/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "yNqe9ltHXnFQCIdRANQ7yZH12zg=",
+			"path": "github.com/ipfs/go-ipfs/namesys/republisher",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZBuEA+2g7O/tkMOA/PzDtMtDSLY=",
+			"path": "github.com/ipfs/go-ipfs/p2p",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Oa6MMGvch/W8QaUXdptloFUnTcM=",
+			"path": "github.com/ipfs/go-ipfs/path",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SnipISxgIffCd/KxyeJFqY8ztO4=",
+			"path": "github.com/ipfs/go-ipfs/path/resolver",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "sSBvV6gQtQIuQv1Up5NedawR8Qw=",
+			"path": "github.com/ipfs/go-ipfs/pin",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "F/IMB4knxtzbfguhhZeeI9QDE/o=",
+			"path": "github.com/ipfs/go-ipfs/pin/gc",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "vz+hn+kIdvwMVMMRgDFHUw5WJnE=",
+			"path": "github.com/ipfs/go-ipfs/pin/internal/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Y86VfucMATmlbU4A7uGGpqqEZR4=",
+			"path": "github.com/ipfs/go-ipfs/repo",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LyV/KXNeGXkWLMEG4Zhy4xlfB2A=",
+			"path": "github.com/ipfs/go-ipfs/repo/common",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "C0VIxrxzvJJNfGnNV+mhix+Ut88=",
+			"path": "github.com/ipfs/go-ipfs/repo/config",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "bM4HhN7x7VGsPo0e/QBnX11tL0o=",
+			"path": "github.com/ipfs/go-ipfs/repo/fsrepo",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "S3y78v64aIsTwheeF3Ds0KEJRP8=",
+			"path": "github.com/ipfs/go-ipfs/repo/fsrepo/migrations",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "m12Ql8mI1GsGSs0FL12k+GhCfcA=",
+			"path": "github.com/ipfs/go-ipfs/repo/fsrepo/serialize",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Juf3y6Ngtlj9t6+h1AlTprVeCZ8=",
+			"path": "github.com/ipfs/go-ipfs/tar",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "5mB1xhqMZkAGTIs0ZRfHbrzbaRU=",
+			"path": "github.com/ipfs/go-ipfs/thirdparty/dir",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "7N9sp5RmH1qJazXzrAfK2rjrQlU=",
+			"path": "github.com/ipfs/go-ipfs/thirdparty/math2",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "82jkKuufx5IJuUSY1mwJAtAWmjE=",
+			"path": "github.com/ipfs/go-ipfs/thirdparty/verifbs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9EjrzUN4yC5Lc17mZmn6wFcBVf8=",
+			"path": "github.com/ipfs/go-ipfs/thirdparty/verifcid",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "TvmZdU4P/PJRv3mqi2YhaioZ1j4=",
+			"path": "github.com/ipfs/go-ipfs/unixfs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "0dd6TniAEFBsTb+HuOqTKJkPYd8=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/archive",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tW7iOv+DicNYvKEoRSJUVMIj0eU=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/archive/tar",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SG1Du/zmVl/QsqEBpLUu0M9KpAw=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/hamt",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "4JY0c3piLgNGB6odnsADNXV8eGw=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/io",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Y2exFVW9xV+wNPAMsRwPI+VBAfU=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/mod",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "GbHMa08bS3nMVLzvqT4q3NcZlw0=",
+			"path": "github.com/ipfs/go-ipfs/unixfs/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "d5/EomV88XWp1tbnGJlK2nDr8uo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNRz7BDWfdFNVLt7AVvmRefkrURD25EeoipcXqo6yoXU1/go-ipld-cbor",
+			"path": "gx/ipfs/QmNRz7BDWfdFNVLt7AVvmRefkrURD25EeoipcXqo6yoXU1/go-ipld-cbor",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "DTe6ZP54G7bE6k5YFU+kdGgEf+w=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNSWW3Sb4eju4o2djPQ1L1c2Zj9XN9sMYJL8r1cbxdc6b/go-addr-util",
+			"path": "gx/ipfs/QmNSWW3Sb4eju4o2djPQ1L1c2Zj9XN9sMYJL8r1cbxdc6b/go-addr-util",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2TR0fTrrbWmuQrvkPlF/KpOM4W0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNWCEvi7bPRcvqAV8AKLGVNoQdArWi7NJayka2SM4XtRe/go-smux-yamux",
+			"path": "gx/ipfs/QmNWCEvi7bPRcvqAV8AKLGVNoQdArWi7NJayka2SM4XtRe/go-smux-yamux",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "q9a7W0rOCA7So7/a5tfBDq4oeL8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/discovery",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/discovery",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "OBL8Y0stwhCATRQ2hO21yAkdhfM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/host/basic",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/host/basic",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "zsBNwWX5oxxFALOeUQOMjAncOzo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/host/routed",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/host/routed",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mExFNy9BDD7oGwI7PTvq6us41bA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tdKGFAheEeKlEGTGf7SmwHAMf+o=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/identify",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/identify",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QptDwVqdoBrE/VPGM5cvMVf9lgk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/identify/pb",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/identify/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CosV4vdGnYPY5/RbD05C8k/MFcY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/ping",
+			"path": "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/ping",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "54GCnlA21YT0ApiOgeqV1pFSDo0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNhVCV7kgAqW6oh6n8m9myxT2ksGPhVZnHkzkBvR5qg2d/go-multicodec-packed",
+			"path": "gx/ipfs/QmNhVCV7kgAqW6oh6n8m9myxT2ksGPhVZnHkzkBvR5qg2d/go-multicodec-packed",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1CXkOSn5d3iTPrigTl9+8/KwqSw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util",
+			"path": "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "a0ER+oIYxs/VDnqOFjrUkhVXTdA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNmJZL7FQySMtE2BQuLMuZg2EB2CLEunJJUSVSc9YnnbV/go-libp2p-host",
+			"path": "gx/ipfs/QmNmJZL7FQySMtE2BQuLMuZg2EB2CLEunJJUSVSc9YnnbV/go-libp2p-host",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "XatcMS5aFwqk05s57EcK035B0lA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmNtxDQBrVzy88FEjVikyM5tAbyfnHm5jJbJZcUhVykusq/snappy",
+			"path": "gx/ipfs/QmNtxDQBrVzy88FEjVikyM5tAbyfnHm5jJbJZcUhVykusq/snappy",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ut4Xj/4/1sF1x/9YwhZwxhPo4GA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPAiAmc3qhTFwzWnKpxr6WCXGZ5mqpaQ2YEwSTnwyduHo/go-ds-badger",
+			"path": "gx/ipfs/QmPAiAmc3qhTFwzWnKpxr6WCXGZ5mqpaQ2YEwSTnwyduHo/go-ds-badger",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "bgTN8bXlbZEqqkPX2F+SBFhfqXc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPG2kW5t27LuHgHnvhUwbHCNHAt2eUcb4gPHqofrESUdB/cors",
+			"path": "gx/ipfs/QmPG2kW5t27LuHgHnvhUwbHCNHAt2eUcb4gPHqofrESUdB/cors",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mE6H3VYlqaYDQ8YCu0Xny76qlzU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff",
+			"path": "gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "IJ6G1z+4ttxvCMEDG1/gQR6mCNg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize",
+			"path": "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "C5ek1f9GZhv+KGiGsRpgMcZQsKI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPXvegq26x982cQjSfbTvSzZXn7GiaMwhhVPHkeTEhrPT/sys/unix",
+			"path": "gx/ipfs/QmPXvegq26x982cQjSfbTvSzZXn7GiaMwhhVPHkeTEhrPT/sys/unix",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "goa1yiRxGEQVGarbWSYpMdVRuKU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPXvegq26x982cQjSfbTvSzZXn7GiaMwhhVPHkeTEhrPT/sys/windows",
+			"path": "gx/ipfs/QmPXvegq26x982cQjSfbTvSzZXn7GiaMwhhVPHkeTEhrPT/sys/windows",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Ri2dnzWSGiq0aZinPT4srpFNDx4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPdqSMmiwtQCBC515gFtMW2mP14HsfgnyQ2k5xPQVxMge/go-fs-lock",
+			"path": "gx/ipfs/QmPdqSMmiwtQCBC515gFtMW2mP14HsfgnyQ2k5xPQVxMge/go-fs-lock",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "4xMcxr2Sqx6CHnAiJxAM0oRPjeQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmPiYdqnkkiPEffrWq2M3Phb3NT8r49kqUXMev2hkkM7uV/go-ds-flatfs",
+			"path": "gx/ipfs/QmPiYdqnkkiPEffrWq2M3Phb3NT8r49kqUXMev2hkkM7uV/go-ds-flatfs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "7nD2LWdYeBCo6tx71HHDF9vaR1s=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519",
+			"path": "gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "KPgcZSPSpKNwGGjmJOvJDhXX2bk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519/edwards25519",
+			"path": "gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519/edwards25519",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "yHt/5bJbFg3Kaja2n8D6CGMbA2w=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519/extra25519",
+			"path": "gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519/extra25519",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "8nBFXQzqOBY5FyuToJfR/p6blnI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQ8t8yZJv6bTgnDcHMPMgpUcSTnpNMGPjFxmGwZ2MWak9/go-nat",
+			"path": "gx/ipfs/QmQ8t8yZJv6bTgnDcHMPMgpUcSTnpNMGPjFxmGwZ2MWak9/go-nat",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SOXcJ2xsitQp4oiRvxAkCXq8cHM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQFXpvKpF34dK9HcE7k8Ksk8V4BwWYZtdEcjzu5aUgRVr/go-flow-metrics",
+			"path": "gx/ipfs/QmQFXpvKpF34dK9HcE7k8Ksk8V4BwWYZtdEcjzu5aUgRVr/go-flow-metrics",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "22db29L6e2xdUnSa7wqkjeRCMD0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQFhPsJCp82az4SXbziP9QcVSqggEELnV9wGZqMR1EfMB/go-smux-spdystream",
+			"path": "gx/ipfs/QmQFhPsJCp82az4SXbziP9QcVSqggEELnV9wGZqMR1EfMB/go-smux-spdystream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "aiYU1LkyPrTAurHS8cmqojoNE6U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQMRYmPn77CKRFf4YFjX3M5e6uw6DFAgsQffCX6mwZ4mA/go-multiaddr-dns",
+			"path": "gx/ipfs/QmQMRYmPn77CKRFf4YFjX3M5e6uw6DFAgsQffCX6mwZ4mA/go-multiaddr-dns",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+V1lM3d/rTWVncQkmAps3zXltUI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQNQhNmY4STU1MURjH9vYEMpx2ncMS4gbwxXWtrEjzVAq/go-todocounter",
+			"path": "gx/ipfs/QmQNQhNmY4STU1MURjH9vYEMpx2ncMS4gbwxXWtrEjzVAq/go-todocounter",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Bq++7318SOF5mgNKWaE5oHSEXQE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQPWTeQJnJE7MYu6dJTiNTQRNuqBr41dis6UgY6Uekmgd/keccakpg",
+			"path": "gx/ipfs/QmQPWTeQJnJE7MYu6dJTiNTQRNuqBr41dis6UgY6Uekmgd/keccakpg",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "pCVFARNvGrN3fU2GRSZgpxmjpK8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQViVWBHbU6HmYjXcdNq7tVASCNgdg64ZGcauuDkLCivW/go-ipfs-addr",
+			"path": "gx/ipfs/QmQViVWBHbU6HmYjXcdNq7tVASCNgdg64ZGcauuDkLCivW/go-ipfs-addr",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "5unI07fFV6jYK219YTp/GQBIi50=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQine7gvHncNevKtG9QXxf3nXcwSj6aDDmMm52mHofEEp/tar-utils",
+			"path": "gx/ipfs/QmQine7gvHncNevKtG9QXxf3nXcwSj6aDDmMm52mHofEEp/tar-utils",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "/nwXPv0VRN0wcSVBYl3IBHo4aGI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "YOCRtiDmB/ywvjncgyO/+Yc0MHw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/dcps/internetgateway1",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/dcps/internetgateway1",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "VXa8wQAoUc2OJGaam2AphwLbo1M=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/dcps/internetgateway2",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/dcps/internetgateway2",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "x4zdh9Ax4lC2v7udiu9BCM6ETmc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/httpu",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/httpu",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "VtoIpFEL/8lnAI56KIxghpWSPXg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/scpd",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/scpd",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "HxA1fhJIOz4TGJMzZ/6m/3r77jY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/soap",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/soap",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "szm7UvUnE3Uy799NufOTSvtjvO0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/ssdp",
+			"path": "gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/ssdp",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1VK38La+E6Dk7XIwpFJF3npkCGs=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQur8VHmc276wJDRdU7KtR3qbA88Dov587DpBnzDbENuo/go-crypto-dav/salsa20",
+			"path": "gx/ipfs/QmQur8VHmc276wJDRdU7KtR3qbA88Dov587DpBnzDbENuo/go-crypto-dav/salsa20",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "w3F8QgSo5tRWZDnWU8em6O0V36A=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmQvJiADDe7JR4m968MwXobTCCzUqQkP87aRHe29MEBGHV/go-logging",
+			"path": "gx/ipfs/QmQvJiADDe7JR4m968MwXobTCCzUqQkP87aRHe29MEBGHV/go-logging",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CxZXlwVIN4NNeMxbz0oN/zWkN8w=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "0BKgnzDWGmIBGdxeg6an9gxWZY8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "11RwrrdrihbBWy5eSuZ2zydT0H0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/b64",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/b64",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+qGTQEG9rxZUC9lnRF/vGJYpXtQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/bin",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/bin",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "jFfUxTTU+mLUPlp/RbXxwE/aSDI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/hex",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/hex",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ACNF8WLBvpAqGeC5WYXPThGtIhk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/mux",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/base/mux",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "FCxJ39LWI+kaDDUCwfBnxbzUOi8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/cbor",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/cbor",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "pjsb6VqzuMomKGosWfYHoYs/HZc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/json",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/json",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "IBLp1KycdGf+Y+RJoK+tt7U0SZA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/mux",
+			"path": "gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/mux",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1QnIBeTgbx6GeQc7aTvklHIQIqA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRFFHk2jw9tgjxv12bCuuTnSbVXxEvYQkuNCLMEv9eUwP/go-farm",
+			"path": "gx/ipfs/QmRFFHk2jw9tgjxv12bCuuTnSbVXxEvYQkuNCLMEv9eUwP/go-farm",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QwaXXL2G3wEFmZyXrn4PlsscMHM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRGZvAy3LRSjj4H2riZ1XJogFYfz3YZLp4Q59nU8MmYKx/go-tcp-transport",
+			"path": "gx/ipfs/QmRGZvAy3LRSjj4H2riZ1XJogFYfz3YZLp4Q59nU8MmYKx/go-tcp-transport",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "25HItCppXM8pW/lh5/th3YRqWoA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay",
+			"path": "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "WMopgzYsoh2ummkgUBYE170JyUw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRK2LxanhK2gZq6k6R7vk5ZoYZk8ULSSTB7FzDsMUX6CB/go-multiaddr-net",
+			"path": "gx/ipfs/QmRK2LxanhK2gZq6k6R7vk5ZoYZk8ULSSTB7FzDsMUX6CB/go-multiaddr-net",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ALIBPnz5W0W7nSIIVHLNXEQf6Y8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRMGdC6HKdLsPDABL9aXPDidrpmEHzJqFWSvshkbn9Hj8/go-ipfs-flags",
+			"path": "gx/ipfs/QmRMGdC6HKdLsPDABL9aXPDidrpmEHzJqFWSvshkbn9Hj8/go-ipfs-flags",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "cqcyiMWIDo7HHDH2k0qWVUDp02o=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log",
+			"path": "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QFbnwfSuyzE8mVhBim4dru2Wh5I=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRg1gKTHzc3CZXSKzem8aR4E3TubFhbgXwfVuWnSK5CC5/go-metrics-interface",
+			"path": "gx/ipfs/QmRg1gKTHzc3CZXSKzem8aR4E3TubFhbgXwfVuWnSK5CC5/go-metrics-interface",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Pk84VIzMcHMCspdb0rdb6l/uSa4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmRvZscvtJhcRJhKPrRqoR76pmsQ8MnCqUjk3FNpm1D8Wa/go-libp2p-conn",
+			"path": "gx/ipfs/QmRvZscvtJhcRJhKPrRqoR76pmsQ8MnCqUjk3FNpm1D8Wa/go-libp2p-conn",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "b+HYWWiNLh5ToACYWdm8juVoxZA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/expfmt",
+			"path": "gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/expfmt",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "fp8eosTMXkhmFeaBsXn1hYl9Noc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/internal/bitbucket.org/ww/goautoneg",
+			"path": "gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/internal/bitbucket.org/ww/goautoneg",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "spDzlKwRoD1pvmjuSVm8J7Nypyk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/model",
+			"path": "gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/model",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "92kMrZtrU4VWXpNCvTBI1yJKFo0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess",
+			"path": "gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "gT4fjIHi6n+vy5MTHD8ahuG8aKU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess/context",
+			"path": "gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess/context",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Fl0xSNbcgnLzlKDaGTT6Ku1lNzo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess/periodic",
+			"path": "gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess/periodic",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZAlVte7FfgHWXA7vz5RfUJC1ViU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSFihvoND3eDaAYRCeLgLPt62yCPgMZs1NSZmKFEtJQQw/go-libp2p-floodsub",
+			"path": "gx/ipfs/QmSFihvoND3eDaAYRCeLgLPt62yCPgMZs1NSZmKFEtJQQw/go-libp2p-floodsub",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "fWxM08i5t7+mOhKJkou96aFYK3s=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSFihvoND3eDaAYRCeLgLPt62yCPgMZs1NSZmKFEtJQQw/go-libp2p-floodsub/pb",
+			"path": "gx/ipfs/QmSFihvoND3eDaAYRCeLgLPt62yCPgMZs1NSZmKFEtJQQw/go-libp2p-floodsub/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ccaa1N+9EqvZjRnvsLO5nb9L0f4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSGRM5Udmy1jsFBr1Cawez7Lt7LZ3ZKA23GGVEsiEW6F3/eventfd",
+			"path": "gx/ipfs/QmSGRM5Udmy1jsFBr1Cawez7Lt7LZ3ZKA23GGVEsiEW6F3/eventfd",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "vt5MoBpcs2CfAOj1Hbk9roB+6ZE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter",
+			"path": "gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "7zltuJpO07pJ6Zl5Zi47cFCBjtA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log",
+			"path": "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Jk+RrjveCbv70ytfTut63LEN4eY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmSwZMWwFZSUpe5muU2xgTUwppH24KfMwdPXiwbEp2c6G5/go-libp2p-swarm",
+			"path": "gx/ipfs/QmSwZMWwFZSUpe5muU2xgTUwppH24KfMwdPXiwbEp2c6G5/go-libp2p-swarm",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SY3ZZ9MzU4qSX8Cs2DhvU/XUkd4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmT6n4mspWYEya864BhCUJEgyxiRfmiSY9ruQwTUNpRKaM/protobuf/proto",
+			"path": "gx/ipfs/QmT6n4mspWYEya864BhCUJEgyxiRfmiSY9ruQwTUNpRKaM/protobuf/proto",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "hVrT1PWdi3JVUsok7YWDYVrYqOw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmT8TkDNBDyBsnZ4JJ2ecHU7qN184jkw1tY8y4chFfeWsy/go-libp2p-secio",
+			"path": "gx/ipfs/QmT8TkDNBDyBsnZ4JJ2ecHU7qN184jkw1tY8y4chFfeWsy/go-libp2p-secio",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ak8RLdw8dfnOfBiAxdu8B+CDMhI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmT8TkDNBDyBsnZ4JJ2ecHU7qN184jkw1tY8y4chFfeWsy/go-libp2p-secio/pb",
+			"path": "gx/ipfs/QmT8TkDNBDyBsnZ4JJ2ecHU7qN184jkw1tY8y4chFfeWsy/go-libp2p-secio/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "DP8NJkQrVPlazqCm06jz1Db5KHw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/context",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/context",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "RpavTS8Vvk8k+y7hS2crDuhL+tY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "OV3pPLAJSZ4gPyEJgCbyXQPoqR4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html/atom",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html/atom",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Ck7lOB/evGB/dxIEVa8kQ/e1mJA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html/charset",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html/charset",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "KlkojNd9XPDpV4Cq0R0YMRUgz78=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/internal/iana",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/internal/iana",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "dQRxr1hoDSnCaLY7cYTib6Z/DDE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/internal/timeseries",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/internal/timeseries",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "UPVEeN1LsF6EjqVJKHXebSyIS8A=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/ipv4",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/ipv4",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "A7u23IWUHDuX0I7PxzaoaKBcZvs=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/ipv6",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/ipv6",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Facq4GqponZhqwG/hTnWDbU+Sl8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/trace",
+			"path": "gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/trace",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "gHQlVUnbdXADr3Cp3nKOuEmkDqI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTH6VLu3WXfbH3nuLdmscgPWuiPZv3GMJ2YCdzBS5z91T/go-libp2p-kbucket",
+			"path": "gx/ipfs/QmTH6VLu3WXfbH3nuLdmscgPWuiPZv3GMJ2YCdzBS5z91T/go-libp2p-kbucket",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "RBIiSA3AC3L4hLKXBn+cAKiPV8I=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTH6VLu3WXfbH3nuLdmscgPWuiPZv3GMJ2YCdzBS5z91T/go-libp2p-kbucket/keyspace",
+			"path": "gx/ipfs/QmTH6VLu3WXfbH3nuLdmscgPWuiPZv3GMJ2YCdzBS5z91T/go-libp2p-kbucket/keyspace",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "B10qV1LwzLlA8vQg70+BgG6SzM0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/frac",
+			"path": "gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/frac",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "MaAL2y//CLnJhAX3gJmMBdbYIpg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/io",
+			"path": "gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/io",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9zct1VVxyyzWQgcmzf/MPZVPyUU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTbBs3Y3u5F69XNJzdnnc6SP5GKgcXxCDzx6w8m6piVRT/go-bitfield",
+			"path": "gx/ipfs/QmTbBs3Y3u5F69XNJzdnnc6SP5GKgcXxCDzx6w8m6piVRT/go-bitfield",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LsItDmZcmWKd4zSZOxBDu7R4iCM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTiWLZ6Fo5j4KcTVutZJ5KWRRJrbxzmxA4td8NfEdrPh7/go-libp2p-routing",
+			"path": "gx/ipfs/QmTiWLZ6Fo5j4KcTVutZJ5KWRRJrbxzmxA4td8NfEdrPh7/go-libp2p-routing",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "lZV+Er0eoQYv5EMwAMMkc0oGVP0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTiWLZ6Fo5j4KcTVutZJ5KWRRJrbxzmxA4td8NfEdrPh7/go-libp2p-routing/notifications",
+			"path": "gx/ipfs/QmTiWLZ6Fo5j4KcTVutZJ5KWRRJrbxzmxA4td8NfEdrPh7/go-libp2p-routing/notifications",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "qgRwrVKcydPGYPOffctBEV3ZEj0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTmqJGRQfuH8eKWD1FjThwPRipt1QhqJQNZ8MpzmfAAxo/go-ipfs-ds-help",
+			"path": "gx/ipfs/QmTmqJGRQfuH8eKWD1FjThwPRipt1QhqJQNZ8MpzmfAAxo/go-ipfs-ds-help",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "YkaEsJ+lWxAhUjEOcLcVvKqLKEM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTnsezaB1wWNRHeHnYrm8K4d5i9wtyj3GsqjC3Rt5b5v5/go-multistream",
+			"path": "gx/ipfs/QmTnsezaB1wWNRHeHnYrm8K4d5i9wtyj3GsqjC3Rt5b5v5/go-multistream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "udG7RnsvBN4eIClzuITbk/uNRP8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmToCvh5eJtoDheMggre7b2zeFCJ6tAyB82YVs457cqoUE/go-libp2p-interface-conn",
+			"path": "gx/ipfs/QmToCvh5eJtoDheMggre7b2zeFCJ6tAyB82YVs457cqoUE/go-libp2p-interface-conn",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "wnh8tBJmT5gX5+BrPUqL/rnJ3rA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmTy17Jm1foTnvUS9JXRhLbRQ3XuC64jPTjUfpB4mHz2QM/mafmt",
+			"path": "gx/ipfs/QmTy17Jm1foTnvUS9JXRhLbRQ3XuC64jPTjUfpB4mHz2QM/mafmt",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "PjkWYErua5bQBbIS408iaAUdoZE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmUkfaKMw9rBRvYGrohn9HqYwZjzAasV4vM6bda8tiHCmq/go-multiplex",
+			"path": "gx/ipfs/QmUkfaKMw9rBRvYGrohn9HqYwZjzAasV4vM6bda8tiHCmq/go-multiplex",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "NgLkKA00snKttcqulzLCzLgS3Zg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmUpttFinNDmNPgFwKN8sZK6BUtBmA68Y4KdSBDXa8t9sJ/go-libp2p-record",
+			"path": "gx/ipfs/QmUpttFinNDmNPgFwKN8sZK6BUtBmA68Y4KdSBDXa8t9sJ/go-libp2p-record",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Fjo5tDwLvxN/iwh1/uICb6sprWk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmUpttFinNDmNPgFwKN8sZK6BUtBmA68Y4KdSBDXa8t9sJ/go-libp2p-record/pb",
+			"path": "gx/ipfs/QmUpttFinNDmNPgFwKN8sZK6BUtBmA68Y4KdSBDXa8t9sJ/go-libp2p-record/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "dewJDyIi7ppVkl/eb2WtOReJlp8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmUsh7scAkKe2erRhfGJpvxokArYL46ye2EJvFEp6XSbLr/golang_protobuf_extensions/pbutil",
+			"path": "gx/ipfs/QmUsh7scAkKe2erRhfGJpvxokArYL46ye2EJvFEp6XSbLr/golang_protobuf_extensions/pbutil",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZX29fwtiZapIpRt+dulnBvJzX6o=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmUusaX99BZoELh7dmPgirqRQ1FAmMnmnBn3oiqDFGBUSc/go-keyspace",
+			"path": "gx/ipfs/QmUusaX99BZoELh7dmPgirqRQ1FAmMnmnBn3oiqDFGBUSc/go-keyspace",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "8zmJXfXpCpP3l4PUyYKqoJML5sw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVTnHzuyECV9JzbXXfZRj1pKtgknp1esamUb2EH33mJkA/go-libp2p-circuit",
+			"path": "gx/ipfs/QmVTnHzuyECV9JzbXXfZRj1pKtgknp1esamUb2EH33mJkA/go-libp2p-circuit",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Aeta/PJD47STi6VETucwqar0ZM8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVTnHzuyECV9JzbXXfZRj1pKtgknp1esamUb2EH33mJkA/go-libp2p-circuit/pb",
+			"path": "gx/ipfs/QmVTnHzuyECV9JzbXXfZRj1pKtgknp1esamUb2EH33mJkA/go-libp2p-circuit/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "6eRWcMyOwpFXt+2JIuEan3LYQkE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVUAoR89E6KDBJmsfRVkAoBMEfgVfy8rRmvzf4y9rWp1d/go4-lock",
+			"path": "gx/ipfs/QmVUAoR89E6KDBJmsfRVkAoBMEfgVfy8rRmvzf4y9rWp1d/go4-lock",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "sVWw4jt+sPM25meTq+5Bg3qI4HQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVVhwMHaGHPgZY6pi8hbWGLSgMcZUSdEhJBChjxhBMCoy/go-ds-leveldb",
+			"path": "gx/ipfs/QmVVhwMHaGHPgZY6pi8hbWGLSgMcZUSdEhJBChjxhBMCoy/go-ds-leveldb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9Hxph4ewVee9N54DuESVMSDZ+bM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru",
+			"path": "gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "hN6fzm3ZC4W4imegmLmPGD/IVGc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru/simplelru",
+			"path": "gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru/simplelru",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "WRtDUBg2XrK8reR5MQ0m8zMN4DA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVmDhyTTUcQXFD1rRQ64fGLMSAoaQvNH3hwuaCFAPq2hy/errors",
+			"path": "gx/ipfs/QmVmDhyTTUcQXFD1rRQ64fGLMSAoaQvNH3hwuaCFAPq2hy/errors",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "jRLOTa6oeQ2nSWlUnIyAOPXj2AA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVniQJkdzLZaZwzwMdd3dJTvWiJ1DQEkreVy6hs6h7Vk5/go-smux-multistream",
+			"path": "gx/ipfs/QmVniQJkdzLZaZwzwMdd3dJTvWiJ1DQEkreVy6hs6h7Vk5/go-smux-multistream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "hyaXEWNJ6XGAMvNYZYDQl8arsqQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil",
+			"path": "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QgPzgdN/GjvltsQNU3kmN1nzjEk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVxf27kucSvCLiCq6dAXjDU2WG3xZN9ae7Ny6osroP28u/yamux",
+			"path": "gx/ipfs/QmVxf27kucSvCLiCq6dAXjDU2WG3xZN9ae7Ny6osroP28u/yamux",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "0qk7rzcXSd5ZZoFybpu7ElT/3lw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmVxtCwKFMmwcjhQXsGj6m4JAW7nGb9hRoErH9jpgqcLxA/go-libp2p-transport",
+			"path": "gx/ipfs/QmVxtCwKFMmwcjhQXsGj6m4JAW7nGb9hRoErH9jpgqcLxA/go-libp2p-transport",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "BQJKe2JwMQzgSQ9SoqRcyj27qKQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWBEjwiGM7mzpa2zkaen5PhxwRS4LrVRWAagBaPJio8eY/go-sockaddr/net",
+			"path": "gx/ipfs/QmWBEjwiGM7mzpa2zkaen5PhxwRS4LrVRWAagBaPJio8eY/go-sockaddr/net",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "BYxUK1BYNRB5ymMZsbaMGmru+28=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWBug6eBS7AxRdCDVuSY5CnSit7cS2XnPFYJWqWDumhCG/go-msgio",
+			"path": "gx/ipfs/QmWBug6eBS7AxRdCDVuSY5CnSit7cS2XnPFYJWqWDumhCG/go-msgio",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ueBrOQ8nTxOhhKMfyntxY2BCqB0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWBug6eBS7AxRdCDVuSY5CnSit7cS2XnPFYJWqWDumhCG/go-msgio/mpool",
+			"path": "gx/ipfs/QmWBug6eBS7AxRdCDVuSY5CnSit7cS2XnPFYJWqWDumhCG/go-msgio/mpool",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "G2jdD+s0DjdlFv16fJi9/IbzytA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWFAMPqsEyUX7gDUsRVmMWz59FxSpJ1b2v6bJ1yYzo7jY/go-base58-fast/base58",
+			"path": "gx/ipfs/QmWFAMPqsEyUX7gDUsRVmMWz59FxSpJ1b2v6bJ1yYzo7jY/go-base58-fast/base58",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "YMlmW6rhc8Ehtt8C43qW+RQjx7Y=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWHgLqrghM9zw77nF6gdvT9ExQ2RB9pLxkd8sDHZf1rWb/go-temp-err-catcher",
+			"path": "gx/ipfs/QmWHgLqrghM9zw77nF6gdvT9ExQ2RB9pLxkd8sDHZf1rWb/go-temp-err-catcher",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2Uw4ke+clim6el+dKkyPa5rfzgg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go",
+			"path": "gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9tCGSrI1cU5i9a5N3jGS57P9Zuk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go/ext",
+			"path": "gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go/ext",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "TL3UJXWKnGWFEAHQNeb+GHJm14U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go/log",
+			"path": "gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go/log",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tYzj6z1KvMbn8BSJrusAMBoe9VY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline",
+			"path": "gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QG/YmjNDZ4morLsvgIiZ40lSIsw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWSvDKkcno2UyDg13rUBwWfhRsdj7uR3daAq57VoG5QeN/mdns",
+			"path": "gx/ipfs/QmWSvDKkcno2UyDg13rUBwWfhRsdj7uR3daAq57VoG5QeN/mdns",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "N6+T+Uz+KujAD1IEpFEOSV81Mvo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWWQ2Txc2c6tqjsBpzg5Ar652cHPGNsQQp2SejkNmkUMb/go-multiaddr",
+			"path": "gx/ipfs/QmWWQ2Txc2c6tqjsBpzg5Ar652cHPGNsQQp2SejkNmkUMb/go-multiaddr",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "pdCHJxCSKQv41WMN1T8B5XRMrz4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWchsfMt9Re1CQaiHqPQC1DrZ9bkpa6n229dRYkGyLXNh/dns",
+			"path": "gx/ipfs/QmWchsfMt9Re1CQaiHqPQC1DrZ9bkpa6n229dRYkGyLXNh/dns",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "bHceYWJCYZytw/KJw7g/SKaRBfE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWjNfGgm61ABELTxPDwvNDm18j1EmQiPt9zXkCSEYgMDm/spdystream",
+			"path": "gx/ipfs/QmWjNfGgm61ABELTxPDwvNDm18j1EmQiPt9zXkCSEYgMDm/spdystream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "S752h/6GpW45ERz+9N6UOKmDNqg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWjNfGgm61ABELTxPDwvNDm18j1EmQiPt9zXkCSEYgMDm/spdystream/spdy",
+			"path": "gx/ipfs/QmWjNfGgm61ABELTxPDwvNDm18j1EmQiPt9zXkCSEYgMDm/spdystream/spdy",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tgNQ1qXQHgIZSjfoT5cGmrLE+3U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker",
+			"path": "gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "pe6F7DfhlSLOruSC4LvcPYjlDAQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWp2mA7eab53PS4NdyW4uvBf73ZB7wSB7eN64K5pS1AKg/go-peerstream",
+			"path": "gx/ipfs/QmWp2mA7eab53PS4NdyW4uvBf73ZB7wSB7eN64K5pS1AKg/go-peerstream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "onCjjpQpw4iVI+P53wQLzUMSEaU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmWq5PJgAQKDWQerAijYUVKW8mN5MDatK5j7VMp8rizKQd/btcec",
+			"path": "gx/ipfs/QmWq5PJgAQKDWQerAijYUVKW8mN5MDatK5j7VMp8rizKQd/btcec",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "UIkVfYeWmH5oE+GmVLdx7ccHfY4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmX3QZ5jHEPidwUrymXV1iSCSUhdGxj15sm2gP4jKMef7B/client_golang/prometheus",
+			"path": "gx/ipfs/QmX3QZ5jHEPidwUrymXV1iSCSUhdGxj15sm2gP4jKMef7B/client_golang/prometheus",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SRI9oUbNuoIR+S0AtdTVWNk79mI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXMPT8tVwqKHZKWxnrfbYqUEaDJ5SF3Yh3fnFthaSrU37/xhandler",
+			"path": "gx/ipfs/QmXMPT8tVwqKHZKWxnrfbYqUEaDJ5SF3Yh3fnFthaSrU37/xhandler",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "DV6vMgksxWqm87ZyxexaApVBPbc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "cxzj2yL28DIqHxJYMkMtaAFnIkw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/autobatch",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/autobatch",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nu2tzkT+gW/vMpkcOgtOBHwZvq8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/delayed",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/delayed",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+cxg7aObQ1Gs8++pG1zptNM8/PM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/keytransform",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/keytransform",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZNK6dqKzrXmzoIm9nGs5s4zOK8g=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/mount",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/mount",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "I2jSQkklU3Vohi2FpyCiY/wDf2Y=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/namespace",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/namespace",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QD/FxvbHtVrSBne1/K03NDvFzV4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/query",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/query",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "k9SywK1OY1DLWRivShGvK17xqM8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/retrystore",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/retrystore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "rqenrdCwTrO6ONVsHjcbNLLJLTs=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/sync",
+			"path": "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/sync",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "PJiIacwqiVodvzxpDfWiED+qPps=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXSs8cccbT4zDR95c1iRpYKDqVMzqeF1J6iZcavgE6eNw/protobuf/proto",
+			"path": "gx/ipfs/QmXSs8cccbT4zDR95c1iRpYKDqVMzqeF1J6iZcavgE6eNw/protobuf/proto",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QO9eYOYo4UMqQPGad1tuTjeIDSA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXTpwq2AkzQsPjKqFQDNY2bMdsAT53hUBETeyj8QRHTZU/sha256-simd",
+			"path": "gx/ipfs/QmXTpwq2AkzQsPjKqFQDNY2bMdsAT53hUBETeyj8QRHTZU/sha256-simd",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "BZanpx2sUZ2YJUNPkBcWcNIMjk8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore",
+			"path": "gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mx4a+E4hlW/PKQIM5f06tccbZFE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore/addr",
+			"path": "gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore/addr",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ncDYGwnbN2NYzoV4/9Vj8GV9my8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore/queue",
+			"path": "gx/ipfs/QmXauCuJzmzapetmC6W4TuDJLL1yFFrVzSHoWv8YdbmnxH/go-libp2p-peerstore/queue",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "c0d0JlyUv6fWfHd8XXlnbj2O+Hk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXfkENeeBvh3zYA51MaSdGUdBjhQ99cP5WQe8zgr6wchG/go-libp2p-net",
+			"path": "gx/ipfs/QmXfkENeeBvh3zYA51MaSdGUdBjhQ99cP5WQe8zgr6wchG/go-libp2p-net",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nd350TEg36ZQ+dljqw3LOee72s0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXqKGu7QzfRzFC4yd5aL9sThYx22vY163VGwmxfp5qGHk/bbloom",
+			"path": "gx/ipfs/QmXqKGu7QzfRzFC4yd5aL9sThYx22vY163VGwmxfp5qGHk/bbloom",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "SBQUAmdEnpPeXlowSwyNwpaGgp8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/mock",
+			"path": "gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/mock",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "4b3m12fuoJFdkhqV+8N0CzzrI6E=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/none",
+			"path": "gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/none",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "QWGnro89/tBXA8cuGcrR+YiT26A=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/offline",
+			"path": "gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/offline",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tHqG2DH7m6hy89hv0vWfihhfAYM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht",
+			"path": "gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "RbWQL6/jFU3MA/TBleAimCjDnpo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht/pb",
+			"path": "gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "OSidp3Y7sdGpViOFaMgZ4QX2HKE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht/providers",
+			"path": "gx/ipfs/QmY1y2M1aCcVhy8UuTbZJBvuFbegZm47f9cDAdgxiehQfx/go-libp2p-kad-dht/providers",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "qVVjTQg6ziB13mBWgtzamqbgZqw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmY9JXR3FupnYAYJWK9aMr9bCpqWKcToQ1tz8DVGTrHpHw/go-stream-muxer",
+			"path": "gx/ipfs/QmY9JXR3FupnYAYJWK9aMr9bCpqWKcToQ1tz8DVGTrHpHw/go-stream-muxer",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "fRhJ9HM1SSak9nm3HDsAaeYlcsA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYRGECuvQnRX73fcvPnGbYijBcGN2HbKZQ7jh26qmLiHG/semver",
+			"path": "gx/ipfs/QmYRGECuvQnRX73fcvPnGbYijBcGN2HbKZQ7jh26qmLiHG/semver",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "qvlrFPKeYUnsK+DOiZKeUFqdY4U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYVR3C8DWPHdHxvLtNFYfjsXgaRAdh6hPMNH3KiwCgu4o/go-libp2p-netutil",
+			"path": "gx/ipfs/QmYVR3C8DWPHdHxvLtNFYfjsXgaRAdh6hPMNH3KiwCgu4o/go-libp2p-netutil",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "hx/jUWRLKCDyFiv6ubGKxSCxFjM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYftoT56eEfUBTD3erR6heXuPSUhGRezSmhSU8LeczP8b/timecache",
+			"path": "gx/ipfs/QmYftoT56eEfUBTD3erR6heXuPSUhGRezSmhSU8LeczP8b/timecache",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "wdI5PM/cuQhz8laQ9n26FTtoWq4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYkNhwAviNzN974MB3koxuBRhtbvCotnuQcugrPF96BPp/client_model/go",
+			"path": "gx/ipfs/QmYkNhwAviNzN974MB3koxuBRhtbvCotnuQcugrPF96BPp/client_model/go",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Ojn4uozAhtUbT3q515XaNy3HuYM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYnf27kzqR2cxt6LFZdrAFJuQd6785fTkBvMuEj9EeRxM/proquint",
+			"path": "gx/ipfs/QmYnf27kzqR2cxt6LFZdrAFJuQd6785fTkBvMuEj9EeRxM/proquint",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tjnoFb2FuhMd2VBCHPbdCijKII4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmYsYNh6saxUYHajdj49uiRzdxQgiFTtymrjf3d1f2Cer4/go-nat-pmp",
+			"path": "gx/ipfs/QmYsYNh6saxUYHajdj49uiRzdxQgiFTtymrjf3d1f2Cer4/go-nat-pmp",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "53vc/ZsQf9l17FKh3BKdKurR1zY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZ1R2LxRZTUaeuMFEtQigzHfFCv3hLYBi5316aZ7YUeyf/go-libp2p-connmgr",
+			"path": "gx/ipfs/QmZ1R2LxRZTUaeuMFEtQigzHfFCv3hLYBi5316aZ7YUeyf/go-libp2p-connmgr",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "8CClMLuhfRW7L1heMDL5EB81NjA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/io",
+			"path": "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/io",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "KBokI/L75pFOBUrPiM4JNnWHaQk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto",
+			"path": "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LVNV2d8zx19UCBXdOpg/+Bu6Zr8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZH5VXfAJouGMyCCHTRPGCT3e5MG9Lu78Ln3YAYW1XTts/websocket",
+			"path": "gx/ipfs/QmZH5VXfAJouGMyCCHTRPGCT3e5MG9Lu78Ln3YAYW1XTts/websocket",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+PuXSPy4EiktXHg42ffF3zv5LW0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol",
+			"path": "gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "KHs5wynIaUuQP+qjxC3YuC8e82g=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZPrWxuM8GHr4cGKbyF5CCT11sFUP9hgqpeUHALvx2nUr/go-libp2p-interface-pnet",
+			"path": "gx/ipfs/QmZPrWxuM8GHr4cGKbyF5CCT11sFUP9hgqpeUHALvx2nUr/go-libp2p-interface-pnet",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "iJ0ywfppGaBbeZPCjQF5BX7FwfQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZRjKbHa6DenStpQJFiaPcEwkZqrx7TH6xTf342LDU3qM/go-sysinfo",
+			"path": "gx/ipfs/QmZRjKbHa6DenStpQJFiaPcEwkZqrx7TH6xTf342LDU3qM/go-sysinfo",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2NWdoPPDmzvSlHbHbt+GSiQtP4s=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZUbTDJ39JpvtFCSubiWeUTQRvMA1tVE5RZCJrY4oeAsC/go-ipfs-pq",
+			"path": "gx/ipfs/QmZUbTDJ39JpvtFCSubiWeUTQRvMA1tVE5RZCJrY4oeAsC/go-ipfs-pq",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "X1CldMrHQv2EEtMib2B8X16T76g=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZmmuAXgX73UQmX1jRKjTGmjzq24Jinqkq8vzkBtno4uX/go-is-domain",
+			"path": "gx/ipfs/QmZmmuAXgX73UQmX1jRKjTGmjzq24Jinqkq8vzkBtno4uX/go-is-domain",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "yvq9qLGAN1HST+1jAoVLDPjlmU4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer",
+			"path": "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Kooy6Jy2pfba8QqWcjwBBEbjT0Q=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer/peerset",
+			"path": "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer/peerset",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ERhCWTAWAt1xLC/ypoJFmz3fqxQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer/test",
+			"path": "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer/test",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9eYmrI+Ol6K1vshoD/dTT9x0T4Q=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZooytqEoUwQjv7KzH4d3xyJnyvD3AWJaCDMYt5pbCtua/chunker",
+			"path": "gx/ipfs/QmZooytqEoUwQjv7KzH4d3xyJnyvD3AWJaCDMYt5pbCtua/chunker",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "sElDc/QJdggKQ2ruD8k3XQh/B18=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZp3eKdYQHHAneECmeK6HhiMwTPufmjC8DuuaGKv3unvx/blake2b-simd",
+			"path": "gx/ipfs/QmZp3eKdYQHHAneECmeK6HhiMwTPufmjC8DuuaGKv3unvx/blake2b-simd",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "gjLYrSjB8vaKRw2G4uWTn2o8ReQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash",
+			"path": "gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "mnb3nNTROFZGSv+Z66T4qdka+p0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport",
+			"path": "gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "OagcaEwf/CIyu78WK7NYQmnjyoM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport/poll",
+			"path": "gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport/poll",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "15kNowGmb/nNnfv2d3BpiVVtYW8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport/singlepoll",
+			"path": "gx/ipfs/QmaBTcaZbAgei1Z2ksUipLJ2AeEZtqDnyGYAkL7NFJ8pg3/go-reuseport/singlepoll",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "wkHD1OgHnEUANakKJ2USuUjYtnI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse",
+			"path": "gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "EbdDYQERsgFzvDN5SGzgaZOjfdc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse/fs",
+			"path": "gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse/fs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "TcXWx7t0BNe6Mvr1f1iDfP/hjnY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse/fuseutil",
+			"path": "gx/ipfs/QmaFNtBAXX4nVMQWbUqNysXyhevUj1k4B1y5uS45LC7Vw9/fuse/fuseutil",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ucDiZAgx3RsWdzm3u2SeCmkNre0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaG4DZ4JaqEfvPWt5nPPgoTzhc1tr1T3f4Nu9Jpdm8ymY/go-ipfs-blockstore",
+			"path": "gx/ipfs/QmaG4DZ4JaqEfvPWt5nPPgoTzhc1tr1T3f4Nu9Jpdm8ymY/go-ipfs-blockstore",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "THPHGzFZMV+aXm+DDuEsqKZP7q4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/blake2s",
+			"path": "gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/blake2s",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "BJ7dcgbKZl4I4ZtUnw1PyIku7FM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/blowfish",
+			"path": "gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/blowfish",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LdgCUwOUieVaNwE50DqsJHF9mQ0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/salsa20",
+			"path": "gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/salsa20",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "EAlanresgsLSyPg81b3lTEh7rPk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/salsa20/salsa",
+			"path": "gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/salsa20/salsa",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "js8qkiUHQrUOjvv2OxImrYrE7TA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/sha3",
+			"path": "gx/ipfs/QmaPHkZLbQQbvcyavn8q1GFHg6o6yeceyHFSJ3Pjf3p3TQ/go-crypto/sha3",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "8YN1StfmlL6pGKaP/nOKYdu8nVw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto",
+			"path": "gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "iUuTLydorhVK2l3zl9Po80pUNxU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto/pb",
+			"path": "gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "B2/3mT1NY5RofUIx5yt5Id98lCo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "laQW5nSpf2e5cE2QpSrOiIAAtRE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/charmap",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/charmap",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "qZ09j5v/+D+puNxOTzLgETqPe5U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/internal",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/internal",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "1/jLhunWG0k8goJdC1uJya0yTj8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/internal/identifier",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/internal/identifier",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "HjZmo+J1vSWRCH1T71zuqxiHi6s=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/japanese",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/japanese",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "v2QKgHez6316G8TW85OYfr3PTng=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/korean",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/korean",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "q0dW4Z4w/b4rAGont/HSipWiE6Y=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/simplifiedchinese",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/simplifiedchinese",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ki6qxhIPKeEXV2vYoKdx1CJvIo4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/traditionalchinese",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/traditionalchinese",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "vp0PqZzreRlNj2svNttvaBEBkAA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/unicode",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/encoding/unicode",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "jU9Lu9SxEidwR6nGWLYkxtXkS9w=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/transform",
+			"path": "gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/transform",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ud0OjD2LDLxQJcR717BqVIgzfko=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmaeRR9SpXumU5tYLRkq6x6pfMe8qKzxn4ujBpsTJ2zQG7/go-os-rename",
+			"path": "gx/ipfs/QmaeRR9SpXumU5tYLRkq6x6pfMe8qKzxn4ujBpsTJ2zQG7/go-os-rename",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "6fMb2a3zy/Gg4WKoPjD1f5cN4QI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmax8X1Kfahf5WfSB68EWDG3d3qyS3Sqs1v412fjPTfRwx/go-libp2p-interface-connmgr",
+			"path": "gx/ipfs/Qmax8X1Kfahf5WfSB68EWDG3d3qyS3Sqs1v412fjPTfRwx/go-libp2p-interface-connmgr",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9GKXqX0IMU87a16T/j4wCnkE3e4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmb3jLEFAQrqdVgWUajqEyuuDoavkSq1XQXz6tWdFWF995/go-ipfs-posinfo",
+			"path": "gx/ipfs/Qmb3jLEFAQrqdVgWUajqEyuuDoavkSq1XQXz6tWdFWF995/go-ipfs-posinfo",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "biz0iW14uAjvSgemcAjnnUw6LKc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LiFzcsYoBjh3WaDUImErtfvszag=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/cache",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/cache",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "bZFlJyGq7MrlhnGpi+brLUx+zho=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/comparer",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/comparer",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "MZAWHGm74ADhuiZ7MSXbswpgT3M=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/errors",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/errors",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "M7Maf9BVtCKm6Qbhtf2oz/cw/i0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/filter",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/filter",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "V3Gbkgc5pex4vdNKrCAcsjQzE3E=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/iterator",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/iterator",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "TYZoDQToL1TrENppce2djqPHbYc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/journal",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/journal",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Mg6XuNAJ+Nw3/itt3kyNb4G55ZE=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/memdb",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/memdb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "4H47K/QH3x1e6/q4ffVHrBnPydc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/opt",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/opt",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "jXyiq8QDOfrsaJv1Wb0/TxcCPjY=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/storage",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/storage",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "jSeIvDmtzLa/1xv7YpQ/OvE/T74=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/table",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/table",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "dX9xFKDgt9Dtvv2trIlfIq/02RM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/util",
+			"path": "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/util",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "0tAusgefK9cxl/vMRjiobwrri6Y=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbJgZGRtkFeSdCxBCPaMKWRDYbqMxHyFfvjQGcWzpqsDe/go-ds-measure",
+			"path": "gx/ipfs/QmbJgZGRtkFeSdCxBCPaMKWRDYbqMxHyFfvjQGcWzpqsDe/go-ds-measure",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "xtjScprsqjwcUb4VYPoK9W3E6cc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmbNinL4ErzM73BxQSNf8q2vPmAM4v3MNQM2DmDqDjt47D/perks/quantile",
+			"path": "gx/ipfs/QmbNinL4ErzM73BxQSNf8q2vPmAM4v3MNQM2DmDqDjt47D/perks/quantile",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "9/saxnTZGaoj/r0x0+UcYfgLj90=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmc14vuKyGqX27RvBhekYytxSFJpaEgQVuVJgKSm69MEix/go-smux-multiplex",
+			"path": "gx/ipfs/Qmc14vuKyGqX27RvBhekYytxSFJpaEgQVuVJgKSm69MEix/go-smux-multiplex",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "e75Du4DQ7B9tH+gM0P0/LzyXAbc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmc5do1bC3JH73MThEgKgKkgNKLmqrvh2uaE6919yDmUaa/procfs",
+			"path": "gx/ipfs/Qmc5do1bC3JH73MThEgKgKkgNKLmqrvh2uaE6919yDmUaa/procfs",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "5F1XzSsgzDFqQ4Q4TTVI8rZ7TXI=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmcBWojPoNh4qm7zvv4qiepvCnnc7ALS9qcp7TNwwxT1gT/go.uuid",
+			"path": "gx/ipfs/QmcBWojPoNh4qm7zvv4qiepvCnnc7ALS9qcp7TNwwxT1gT/go.uuid",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nG3XWoOp3nWrevZRQQWs6JLPtFo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmcRKRQjNc2JZPHApR32fbkZVd6WXG2Ch9Kcy7sPxuAJgd/cbor/go",
+			"path": "gx/ipfs/QmcRKRQjNc2JZPHApR32fbkZVd6WXG2Ch9Kcy7sPxuAJgd/cbor/go",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "meNEiZWc3KxAupiO7zD4/WnqoUA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid",
+			"path": "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "wDrH1xo+SurIXjz3iI/e68yQ3/I=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit",
+			"path": "gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "cPjDbugqfHpDQqbn4gXJLF/4N1U=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit/files",
+			"path": "gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit/files",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ffsUn58vPnGiy3ATOAOkyaoiXc4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmcrrEpx3VMUbrbgVroH3YiYyUS5c4YAykzyPJWKspUYLa/go-semver/semver",
+			"path": "gx/ipfs/QmcrrEpx3VMUbrbgVroH3YiYyUS5c4YAykzyPJWKspUYLa/go-semver/semver",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "TmwYJKX54gehgdbgKKgVL+8Nwjk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "rSrkHXuh1BGJ+USPNq99VqgiKOM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/options",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/options",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Nl+s6D8uqyBMZfMmMCBVEt277yQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/protos",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/protos",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "rqVnHG0e/eQVSjwE+VfZNBAzQJo=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/skl",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/skl",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "dHzIC+RAB+4mnvmytumVCNzIj9o=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/table",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/table",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "K91JRJ7GO9aSBJw/4D6DuTI5SMM=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/y",
+			"path": "gx/ipfs/QmdKhi5wUQyV9i3GcTyfUmpfTntWjXu8DcyT9HyNbznYrn/badger/y",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Jt1dE4Mz5bx1Ox3V59/5XTWgxpU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdYwCmx8pZRkzdcd8MhmLJqYVoVTC1aGsy5Q4reMGLNLg/atomicfile",
+			"path": "gx/ipfs/QmdYwCmx8pZRkzdcd8MhmLJqYVoVTC1aGsy5Q4reMGLNLg/atomicfile",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "/thCfh2zMrIDXWfS9YcCbcQsoD0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdZ4PvPHFQVLLEve7DgoKDcSY19wwpGBB1GKjjKi2rEL1/dir-index-html",
+			"path": "gx/ipfs/QmdZ4PvPHFQVLLEve7DgoKDcSY19wwpGBB1GKjjKi2rEL1/dir-index-html",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "Kyps3mIe6KnFN/bi2FRdRllkCsg=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdbxjQWogRCHRaxhhGnYdT1oQJzL9GdqSKzCdqWr85AP2/pubsub",
+			"path": "gx/ipfs/QmdbxjQWogRCHRaxhhGnYdT1oQJzL9GdqSKzCdqWr85AP2/pubsub",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "tFfoH5hAI+8gj7E22juzk843ZBs=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdcAXgEHUueP4A7b5hjabKn2EooeHgMreMvFC249dGCgc/go-ipfs-exchange-interface",
+			"path": "gx/ipfs/QmdcAXgEHUueP4A7b5hjabKn2EooeHgMreMvFC249dGCgc/go-ipfs-exchange-interface",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "CEAeJp79YusVhtdmzwb4RzvGMxA=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics",
+			"path": "gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "aaUbKcvcLO9kK2KID9n0nVQ3eoQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics/conn",
+			"path": "gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics/conn",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "+mOwf+/dCTN47n3Kf/MlqYH5pMQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics/stream",
+			"path": "gx/ipfs/QmdeBtQGXjSt7cb97nx9JyLHHv5va2LyEAue7Q5tDFzpLy/go-libp2p-metrics/stream",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "LRapXcbhxXFCq6LH3aVbi0Uvo8o=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format",
+			"path": "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ixC4+hkQfEfIydFgRzwf3AjF33g=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmeFPvhFJGXGiXAc9zunNxZjCaWgYQpcsdwip2NWLcccyw/GoEndian",
+			"path": "gx/ipfs/QmeFPvhFJGXGiXAc9zunNxZjCaWgYQpcsdwip2NWLcccyw/GoEndian",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "kW4QuYORZ9i2JY+C4wC+LeV9cA8=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier",
+			"path": "gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "JNrAJbo+b2XDIIkg6AoB8rzRET4=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier/Godeps/_workspace/src/github.com/jbenet/goprocess",
+			"path": "gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier/Godeps/_workspace/src/github.com/jbenet/goprocess",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "DxhRg6ggNUoeSG+RjCKab8Nsuhk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier/Godeps/_workspace/src/github.com/jbenet/goprocess/ratelimit",
+			"path": "gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier/Godeps/_workspace/src/github.com/jbenet/goprocess/ratelimit",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nFdLjuQQ95z6HF7AGrjU54cUPDk=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmeWjRodbcZFKe5tMN7poEx3izym6osrLSnTLf9UjJZBbs/pb",
+			"path": "gx/ipfs/QmeWjRodbcZFKe5tMN7poEx3izym6osrLSnTLf9UjJZBbs/pb",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "ZABa2zCLGHQQXO6Ig+3I9jssBTU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmej7nf81hi2x2tvjRBF3mcp74sQyuDH4VMYDGd1YtXjb2/go-block-format",
+			"path": "gx/ipfs/Qmej7nf81hi2x2tvjRBF3mcp74sQyuDH4VMYDGd1YtXjb2/go-block-format",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "7/mD/8qMKqtK/PBQmRhIriGG6sU=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmenK8PgcpM2KYzEKnGx1LyN1QXawswM2F6HktCbWKuC1b/go-libp2p-pnet",
+			"path": "gx/ipfs/QmenK8PgcpM2KYzEKnGx1LyN1QXawswM2F6HktCbWKuC1b/go-libp2p-pnet",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "6B2Garn5f8gXqBS2Iu4eSd4Wa8A=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmepzWZwZK23YHYVjhKBEvJnNTgsg71bWetZU9bEsP4qqf/go-ws-transport",
+			"path": "gx/ipfs/QmepzWZwZK23YHYVjhKBEvJnNTgsg71bWetZU9bEsP4qqf/go-ws-transport",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "V/g1Bg+jW+rfZMTCZ36so6Z1G9M=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmesX7qFSxES4ebn9pFpJsjzu8NN6vcKVH3wkypmbGmkqG/go-libp2p-nat",
+			"path": "gx/ipfs/QmesX7qFSxES4ebn9pFpJsjzu8NN6vcKVH3wkypmbGmkqG/go-libp2p-nat",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "2UVhtZP4Dig8Si0Gih67AIeb7WQ=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmexBtiTTEwwn42Yi6ouKt6VqzpA6wjJgiW1oh9VfaRrup/go-multibase",
+			"path": "gx/ipfs/QmexBtiTTEwwn42Yi6ouKt6VqzpA6wjJgiW1oh9VfaRrup/go-multibase",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "o4s9ieQpKQQP/6T2xt7R5V74fo0=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmf2UAmRwDG4TvnkQpHZWPAzw7rpCYVhxmRXmYxXr5LD1g/go-maddr-filter",
+			"path": "gx/ipfs/Qmf2UAmRwDG4TvnkQpHZWPAzw7rpCYVhxmRXmYxXr5LD1g/go-maddr-filter",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "lI6XVaYMSm7no5Yez4NyOfl3Wag=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmf2fBLzCvFxs3vvZaoQyKSTv2rjApek4F1kzRxAfK6P4P/gateway",
+			"path": "gx/ipfs/Qmf2fBLzCvFxs3vvZaoQyKSTv2rjApek4F1kzRxAfK6P4P/gateway",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "MXWrUsdSOoucb2QBbTt/0SFromw=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/Qmf9JgVLz46pxPXwG2eWSJpkqVCcjD4rp7zCRi2KP6GTNB/go-libp2p-loggables",
+			"path": "gx/ipfs/Qmf9JgVLz46pxPXwG2eWSJpkqVCcjD4rp7zCRi2KP6GTNB/go-libp2p-loggables",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "r00fAcjSMHDGzMxujRS0jTYbXXc=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmfAkMSt9Fwzk48QDJecPcwCUjnf2uG7MLnmCGTp4C6ouL/go-ipfs-cmds",
+			"path": "gx/ipfs/QmfAkMSt9Fwzk48QDJecPcwCUjnf2uG7MLnmCGTp4C6ouL/go-ipfs-cmds",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "nkAuIgCT4AjvfRuOAGKHD49qSOs=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmfAkMSt9Fwzk48QDJecPcwCUjnf2uG7MLnmCGTp4C6ouL/go-ipfs-cmds/http",
+			"path": "gx/ipfs/QmfAkMSt9Fwzk48QDJecPcwCUjnf2uG7MLnmCGTp4C6ouL/go-ipfs-cmds/http",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "JpxOnVBh44yYaAas+h02u5a/g1s=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmfJHywXQu98UeZtGJBQrPAR6AtmDjjbe3qjTo9piXHPnx/murmur3",
+			"path": "gx/ipfs/QmfJHywXQu98UeZtGJBQrPAR6AtmDjjbe3qjTo9piXHPnx/murmur3",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		},
+		{
+			"checksumSHA1": "quRgIgsVHfyuNkAg6vaQJreVeas=",
+			"origin": "github.com/ipfs/go-ipfs/vendor/gx/ipfs/QmfVj3x4D6Jkq9SEoi5n2NmoUomLwoeiwnYz2KQa15wRw6/base32",
+			"path": "gx/ipfs/QmfVj3x4D6Jkq9SEoi5n2NmoUomLwoeiwnYz2KQa15wRw6/base32",
+			"revision": "6321f3b72981f85bcc7baeea8989ed7e644c2afb",
+			"revisionTime": "2018-04-24T12:52:13Z"
+		}
+	],
+	"rootPath": "github.com/arunthampi/p2pubsub"
+}
